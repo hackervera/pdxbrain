@@ -19,3 +19,7 @@ get "/about" do
   @header_text = "About me"
   erb :about, :layout => :dialog_layout
 end
+
+get "/buttons" do
+  erb :buttons
+end
