@@ -1,0 +1,13 @@
+#vcard{
+	text-align:center;
+	
+}
+
+#vcard a {
+	text-decoration:none;
+}
+
+#time {
+	font-style:italic;
+	font-weight:bold;
+}

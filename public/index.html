@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html> 
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Single page template</title> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
+</head> 
+
+
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>PDXbRain.com</h1>
+		
+		<div data-role="navbar">
+			<ul>
+				<li><a href="index.html" class="ui-btn-active">Home</a></li>
+				<li><a href="page1.html">Networking</a></li>
+			</ul>
+		</div><!-- /navbar -->
+		
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>This is my home on the web. <a href="about.html" data-rel="dialog">About Me</a></p>
+		
+
+		<div data-role="fieldcontain">
+				<label for="firstname">Name: </label>
+				<input type="text" name="firstname" id="firstname" />
+		</div>
+				
+		<div data-role="fieldcontain">
+		    <label for="search">Search Input:</label>
+		    <input type="search" name="password" id="search" value="" />
+		</div>
+		
+		<div data-role="fieldcontain">
+		<label for="flip-b">Flip switch:</label>
+			<select name="slider" id="flip-b" data-role="slider">
+				<option value="no">No</option>
+				<option value="yes">Yes</option>
+			</select> 
+		</div>
+
+		<p>This template is standard HTML document with a single "page" container inside, unlike a <a href="page1.html" data-prefetch>multi-page template</a> that has multiple pages within it. We strongly recommend building your site or app as a series of separate pages like this because it's cleaner, more lightweight and works better without JavaScript.</p>
+	</div><!-- /content -->
+	
+	<div data-role="footer">
+		<h4>Copyright 2011 Tyler J. Gillies</h4>
+	</div><!-- /footer -->
+	
+</div><!-- /page -->
+
+</body>
+</html>
