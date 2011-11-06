@@ -11,3 +11,7 @@
 	font-style:italic;
 	font-weight:bold;
 }
+
+#canvas {
+	border-style:solid;
+}
